@@ -1,0 +1,74 @@
+html{
+    font-family:'Times New Roman', Times, serif ;
+}
+
+header>h1{
+    font-weight: 300;
+}
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    /* margin: 0rem 3rem; */
+    margin-left: 3rem;
+}
+
+li{
+    list-style: none;
+    font-size: 1.5rem;    
+}
+nav{
+    width: 25rem;
+    top: 0.6rem;
+    position: relative;
+    margin-right: 2rem;
+    
+}
+
+ul{
+    display: flex; /* sare content to horrizontally allign kr deta hai */
+    justify-content:space-between;/* sare content mai spacing barabar kr deta hai */
+    
+}
+.img1{
+    width: 98vw;
+    /* height: 70vh; */
+   margin: 1rem;  /*  top bottom  left right */   
+}
+
+article{
+    display: flex;
+    text-decoration: none;
+
+}
+.container{
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+span{
+    color: red;
+}
+footer{
+    background-color: black;
+    height: 4rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+article h1:hover{
+    color: red;
+}
